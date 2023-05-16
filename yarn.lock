@@ -6772,10 +6772,10 @@
   "resolved" "https://registry.npmmirror.com/mute-stream/-/mute-stream-0.0.8.tgz"
   "version" "0.0.8"
 
-"nanoid@^3.1.32", "nanoid@^3.3.1":
-  "integrity" "sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA=="
-  "resolved" "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.2.tgz"
-  "version" "3.3.2"
+"nanoid@^3.1.32", "nanoid@^3.3.4":
+  "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
+  "resolved" "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.4.tgz"
+  "version" "3.3.4"
 
 "nanomatch@^1.2.1":
   "integrity" "sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA=="
@@ -7499,12 +7499,12 @@
     "source-map" "^0.5.6"
     "supports-color" "^3.2.3"
 
-"postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.3.11", "postcss@^8.3.3", "postcss@^8.3.5", "postcss@^8.3.9", "postcss@^8.4.0", "postcss@^8.4.12", "postcss@>4 <9":
-  "integrity" "sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg=="
-  "resolved" "https://registry.npmmirror.com/postcss/-/postcss-8.4.12.tgz"
-  "version" "8.4.12"
+"postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.3.11", "postcss@^8.3.3", "postcss@^8.3.5", "postcss@^8.3.9", "postcss@^8.4.0", "postcss@^8.4.12", "postcss@^8.4.13", "postcss@>4 <9":
+  "integrity" "sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA=="
+  "resolved" "https://registry.npmmirror.com/postcss/-/postcss-8.4.18.tgz"
+  "version" "8.4.18"
   dependencies:
-    "nanoid" "^3.3.1"
+    "nanoid" "^3.3.4"
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
@@ -8068,7 +8068,7 @@
     "source-map" "^0.7.3"
     "yargs" "^17.3.1"
 
-"rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.0.0", "rollup@^2.42.0", "rollup@^2.43.1", "rollup@^2.59.0", "rollup@^2.60.2", "rollup@^2.70.1":
+"rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.0.0", "rollup@^2.42.0", "rollup@^2.43.1", "rollup@^2.60.2", "rollup@^2.70.1", "rollup@>=2.59.0 <2.78.0":
   "integrity" "sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA=="
   "resolved" "https://registry.npmmirror.com/rollup/-/rollup-2.70.1.tgz"
   "version" "2.70.1"
@@ -9153,6 +9153,11 @@
   "resolved" "https://registry.npmmirror.com/trim-newlines/-/trim-newlines-3.0.1.tgz"
   "version" "3.0.1"
 
+"trim-newlines@^4.0.2":
+  "integrity" "sha512-GJtWyq9InR/2HRiLZgpIKv+ufIKrVrvjQWEj7PxAXNc5dwbNJkqhAUoAGgzRmULAnoOM5EIpveYd3J2VeSAIew=="
+  "resolved" "https://registry.npmmirror.com/trim-newlines/-/trim-newlines-4.0.2.tgz"
+  "version" "4.0.2"
+
 "trim-repeated@^1.0.0":
   "integrity" "sha512-pkonvlKk8/ZuR0D5tLW8ljt5I8kmxp2XKymhepUeOdCEfKpZaktSArkLHZt76OB1ZvO9bssUsDty4SWhLvZpLg=="
   "resolved" "https://registry.npmmirror.com/trim-repeated/-/trim-repeated-1.0.0.tgz"
@@ -9590,7 +9595,7 @@
     "svg-baker" "1.7.0"
     "svgo" "^2.8.0"
 
-"vite-plugin-theme@^0.8.1":
+"vite-plugin-theme@^0.8.6":
   "integrity" "sha512-GyoP9JjGkF106AawBh1kvw2eQZ/CCPeZKN5p5XhQe1ah1LO7A/6aVGY5gYGWk2qHG9nXpM1IvxjdbMsg94bvYg=="
   "resolved" "https://registry.npmmirror.com/vite-plugin-theme/-/vite-plugin-theme-0.8.6.tgz"
   "version" "0.8.6"
@@ -9622,15 +9627,15 @@
     "kolorist" "^1.5.1"
     "windicss" "^3.5.1"
 
-"vite@^2.0.0", "vite@^2.0.0-beta.3", "vite@^2.0.1", "vite@^2.5.10", "vite@^2.8.0", "vite@^2.9.0-beta.3", "vite@>=2.0.0", "vite@>=2.0.0-beta.49":
-  "integrity" "sha512-5NAnNqzPmZzJvrswZGeTS2JHrBGIzIWJA2hBTTMYuoBVEMh0xwE0b5yyIXFxf7F07hrK4ugX2LJ7q6t7iIbd4Q=="
-  "resolved" "https://registry.npmmirror.com/vite/-/vite-2.9.0.tgz"
-  "version" "2.9.0"
+"vite@^2.0.0", "vite@^2.0.0-beta.3", "vite@^2.0.1", "vite@^2.5.10", "vite@^2.8.0", "vite@^2.9.1", "vite@>=2.0.0", "vite@>=2.0.0-beta.49":
+  "integrity" "sha512-fzMt2jK4vQ3yK56te3Kqpkaeq9DkcZfBbzHwYpobasvgYmP2SoAr6Aic05CsB4CzCZbsDv4sujX3pkEGhLabVQ=="
+  "resolved" "https://registry.npmmirror.com/vite/-/vite-2.9.15.tgz"
+  "version" "2.9.15"
   dependencies:
     "esbuild" "^0.14.27"
-    "postcss" "^8.4.12"
+    "postcss" "^8.4.13"
     "resolve" "^1.22.0"
-    "rollup" "^2.59.0"
+    "rollup" ">=2.59.0 <2.78.0"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
@@ -9694,7 +9699,7 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-"vue-tsc@^0.33.2":
+"vue-tsc@^0.33.9":
   "integrity" "sha512-s/+r4JNsCh4e3MUdsYrjEA8IgPPDzHL5kEah/OznxIHd1XMlYiIkXGdiyU6JE5J+lzXNOKdOlNliqwwpeETQWw=="
   "resolved" "https://registry.npmmirror.com/vue-tsc/-/vue-tsc-0.33.9.tgz"
   "version" "0.33.9"
